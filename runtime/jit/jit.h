@@ -277,10 +277,6 @@ class Jit {
     return options_->GetZygoteThreadPoolPthreadPriority();
   }
 
-  int GetZygoteThreadPoolPthreadPriority() const {
-    return options_->GetZygoteThreadPoolPthreadPriority();
-  }
-
   uint16_t HotMethodThreshold() const {
     return options_->GetOptimizeThreshold();
   }
